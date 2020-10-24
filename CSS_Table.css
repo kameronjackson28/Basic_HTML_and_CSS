@@ -4,12 +4,12 @@ table {
 
 td:hover {
 	background-color: blue;
-	color: red;
+	color: white;
 }
 
 tr, th {
 	background-color: yellow;
-	color: blue;
+	color: black;
 }
 
 tr, td {

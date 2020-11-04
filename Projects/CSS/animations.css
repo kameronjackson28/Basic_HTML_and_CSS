@@ -29,3 +29,37 @@
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
 }
+
+.menu li:hover {
+    color: #f00;
+    background-color: rgba(100,65,.3);
+}
+
+/*========================================
+    GALLERY SECTION ANIMATION
+========================================*/
+
+.photo {
+    position: relative;
+    line-height: 0;
+    margin-bottom:2em;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border:1px solid #021a40;
+    background-color: #ff0;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.7);
+}
+
+.photo-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 300px;
+    height: 169px;
+}
+
+.photo-container img {
+    margin width: 100%;
+    width: 300px;
+    height: 169px;
+}

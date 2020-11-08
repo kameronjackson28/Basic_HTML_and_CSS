@@ -284,11 +284,11 @@ HOME SECTION STYLES
  }
 
  .reservation input[type="text"]:hover {
-     box-shadow: 0 0 18px rgba(100,65,0,.8)
+     box-shadow: 0 0 18px rgba(100,65,0,.8);
  }
 
  .form-spacer {
-     padding: 30px 39px
+     padding: 30px 39px;
  }
 
  .terms {

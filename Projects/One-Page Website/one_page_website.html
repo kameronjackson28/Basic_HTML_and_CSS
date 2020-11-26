@@ -4,17 +4,17 @@
 	<meta charset="utf-8">
 		<title>K&R Cajun Cooking </title>
 		<link rel = "stylesheet" type = "text/css" href = "./CSS/one_page_website.css">
-		<script src="JS/one_page_website.js"></script>
+		
 		
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
+		<div class="Nav">
 			<div>
-					<a href="#home">Home</a>
+				<center><a href="#home">Home</a>
 					<a href="#menu">Menu</a>
-					<a href="#contact">Ordering</a>
+					<a href="#contact">Ordering</a></center>
 			</div>
 		</div>
 		<!--END NAV-->
@@ -36,107 +36,42 @@
 			<div id="menu">
 				<center><h2>Menu</h2></center>
 			</div>
-			<div class="row">
-				<div class="column">
-					<img src="Images/One.jpg" height="400" width="400">
+			<div>
+				<img class="ImgThumbnail" src="Images/One.jpg"/>
+				<img class="ImgThumbnail" src="Images/Two.jpg"/>
+				<img class="ImgThumbnail" src="Images/Three.jpg"/>
+				<img class="ImgThumbnail" src="Images/Four.jpg"/>
+				<img class="ImgThumbnail" src="Images/Five.jpg"/>
+				<img class="ImgThumbnail" src="Images/Six.jpg"/>
+				<div class="modal">
+				<span class="close">×</span>
+				<img class="modalImage" id="img01" />
+				<div id="myModal" class="modal">
+					<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+					<div class="next">Next</div>
+					<div class="prev">Prev</div>
+				  <img class="modal-content" id="img01">
+					<div id="caption"></div>
+				  
+				  </div>
 				</div>
-				<div class="column">
-					<img src="Images/Two.jpg" height="400" width="400">
-				</div>
-				<div class="column">
-					<img src="Images/Three.jpg" height="400" width="400">
-				</div>
-				<div class="column">
-					<img src="Images/Four.jpg" height="400" width="400">
-				</div>
-				<div class="column">
-					<img src="Images/Five.jpg" height="400" width="400">
-				</div>
-				<div class="column">
-					<img src="Images/Six.jpg" height="400" width="400">
-				</div>
-			</div>	
+			</div>
+			
+		
 		<!-- END GALLERY -->
-		<!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-	<span class="close cursor" onclick="closeModal()">&times;</span>
-	<div class="modal-content">
-  
-	  <div class="mySlides">
-		<div class="numbertext">1 / 6</div>
-		<img src="Images/One.jpg" style="width:100%">
-	  </div>
-  
-	  <div class="mySlides">
-		<div class="numbertext">2 / 6</div>
-		<img src="Images/Two.jpg" style="width:100%">
-	  </div>
-  
-	  <div class="mySlides">
-		<div class="numbertext">3 / 6</div>
-		<img src="Images/Three.jpg" style="width:100%">
-	  </div>
-  
-	  <div class="mySlides">
-		<div class="numbertext">4 / 6</div>
-		<img src="Images/Four.jpg" style="width:100%">
-	  </div>
-	  <div class="mySlides">
-		<div class="numbertext">5 / 6</div>
-		<img src="Images/Five.jpg" style="width:100%">
-	  </div>
-	  <div class="mySlides">
-		<div class="numbertext">6 / 6</div>
-		<img src="Images/Six.jpg" style="width:100%">
-	  </div>
-	  <!-- Next/previous controls -->
-	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-	  <!-- Caption text -->
-	  <div class="caption-container">
-		<p id="caption"></p>
-	  </div>
-  
-	  <!-- Thumbnail image controls -->
-	  <div class="column">
-		<img class="demo" src="Images/One.jpg" onclick="currentSlide(1)" alt="Nature">
-	  </div>
-  
-	  <div class="column">
-		<img class="demo" src="Images/Two.jpg" onclick="currentSlide(2)" alt="Snow">
-	  </div>
-  
-	  <div class="column">
-		<img class="demo" src="Images/Three.jpg" onclick="currentSlide(3)" alt="Mountains">
-	  </div>
-  
-	  <div class="column">
-		<img class="demo" src="Images/Four.jpg" onclick="currentSlide(4)" alt="Lights">
-	  </div>
-
-	  <div class="column">
-		<img class="demo" src="Images/Five.jpg" onclick="currentSlide(4)" alt="Lights">
-	  </div>
-
-	  <div class="column">
-		<img class="demo" src="Images/Six.jpg" onclick="currentSlide(4)" alt="Lights">
-	  </div>
-	</div>
-  </div>
 	
 	<!--Order Requests -->
 	<section>
 		<div id="contact">
 			<h1>Order Requests</h1>
 			<div>
-				<h2>Try our Homestyle Cajun today!
+			<center><h2>Try our Homestyle Cajun today!
 					<br />
-				</h2>
-			<p>
+				</h2></center>
+			<center><p>
 				Please provide with your basic contact information and we will reach out to you to take your order! 
-			</p>
-			<div class="input">
+			</p></center>
+			<center><div class="input">
 				<form action="" method="post">
 					<input class="contact" type="text" value="First Name">
 					<input class="contact" type="text" value="Last Name">
@@ -146,7 +81,7 @@
 					</div>
 					<div class="submit">
 						<input type="submit" value="Submit">
-					</div>
+					</div></center>
 				</form>
 			</div>
 		</div>
@@ -155,10 +90,11 @@
 	<!--END ORDER REQUESTS -->
 	
 	<!--FOOTER -->
-	<div>
+	<center><div>
 		www.K&RCajunCooking.com &nbsp;|&nbsp; &copy; 2020
-	</div>
+	</div></center>
 	<!--END FOOTER-->
+	<script src="JS/one_page_website.js"></script>
 	</body>
 	
 </html>

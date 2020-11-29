@@ -1,0 +1,41 @@
+.wrap {
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100px;
+}
+
+.menu-container {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(245, 243, 146, 0.884);
+}
+
+.menu {
+    font: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: circle;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: -2px;
+    position: relative;
+    padding: 12px 40px;
+    border: 1px solid grey;
+    border-radius: 1.5px;
+    background-color: #a9fdec;
+}
+
+.menu li:hover {
+    background-color: #5Ea;
+    color: rgb(36, 5, 5);
+    text-decoration: none;
+}

@@ -5,10 +5,10 @@ Projects
 * Aspen Cabins Website
 * Movie Theater Site
 * Numerous Assignment Projects
-* Aspen Cabins Website
+* Aspen Cabins Website<br>
 This page is an example home page for a Cabin Resort company. It styled using CSS and 
 Contains a navbar, image containers , and a form.
-* Movie Theater Site
+* Movie Theater Site<br>
 This page is an example home page for a Movie theater that is styled using Bootstrap 4.
 It contains many Bootstrap components including but not limited to a navbar, jumbotron, form,
 Cards, and dropdowns.
